@@ -1,94 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Leticia Bello</title>
+</head>
 
-    </head>
+<body>
+    <header class="text-center p-3">
+        <h1 id="headerTitulo">Leticia Bello</h1>
+        <p>Apasionada por el <em class="especial">desarrollo web y el avance tecnológico!</em></p>
+        <img src="profile-picture.webp" alt="Foto de Leticia Bello" id="fotoDePerfil" class="img-fluid rounded-circle mx-auto d-block" style="width: 150px;">
+    </header>
 
-    <body>
-        <header>
-            <h1 id="headerTitulo">Leticia Bello</h1>
-            <p>Apasionada por el <em class="especial">desarrollo web y el avance tecnológico!</em></p>
-            <img src="profile-picture.webp" alt="Foto de Leticia Bello" id="fotoDePerfil">
-        </header>
-    
-        <hr>
-        <ul>
-            <li><a href="#experiencia-profesional">Experiencia profesional</a></li>
-            <li><a href="#habilidades-conocimientos">Habilidades y conocimientos</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#perfiles-sociales">Perfiles sociales</a></li>
-            <li><a href="#contactar">Contactar</a></li>
-        </ul>
-    
-        <hr>
-    
-        <section id="experiencia-profesional">
-            <h2>Experiencia Profesional</h2>
-            <table class="table">
+    <hr>
+
+    <!-- Navegación -->
+    <nav class="nav justify-content-center mb-4">
+        <a class="nav-link" href="#experiencia-profesional">Experiencia profesional</a>
+        <a class="nav-link" href="#habilidades-conocimientos">Habilidades y conocimientos</a>
+        <a class="nav-link" href="#educacion">Educación</a>
+        <a class="nav-link" href="#perfiles-sociales">Perfiles sociales</a>
+        <a class="nav-link" href="#contactar">Contactar</a>
+    </nav>
+
+    <hr>
+
+    <!-- Experiencia profesional -->
+    <section id="experiencia-profesional" class="container mb-4">
+        <h2>Experiencia Profesional :)</h2>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
                 <tr>
                     <th>Empresa / Organización</th>
                     <th>Cargo</th>
                     <th>Localización</th>
                     <th>Desde-hasta</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
-                    <td>Mc Donald's</td>
+                    <td>McDonald's</td>
                     <td>Crew Efectivo</td>
                     <td>Montevideo, Uruguay</td>
-                    <td>Agosto 2023- Actualidad</td>
+                    <td>Agosto 2023 - Actualidad</td>
                 </tr>
-            </table>
-        </section>
-    
-        <hr>
-    
-        <section id="habilidades-conocimientos">
-            <h2 class="form">Habilidades y conocimientos</h2>
-            <ul>
-                <li>Desarrollo web: HTML5, CSS3, JavaScript, Bootstrap</li>
-            </ul>
-        </section>
-    
-        <hr>
-    
-        <section id="educacion">
-            <h2>Educación</h2>
-            <table class="table">
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Habilidades y conocimientos -->
+    <section id="habilidades-conocimientos" class="container mb-4">
+        <h2>Habilidades y conocimientos</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Desarrollo web: HTML5, CSS3, JavaScript, Bootstrap</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Educación -->
+    <section id="educacion" class="container mb-4">
+        <h2>Educación</h2>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
                 <tr>
                     <th>Título</th>
                     <th>Entidad</th>
                     <th>Promoción</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>Desarrollo Web</td>
-                    <td>Plan Ceibal (Jóvenes a programar)</td>
+                    <td>Plan Ceibal (Jóvenes a Programar)</td>
                     <td>2024</td>
                 </tr>
-            </table>
-        </section>
-    
-        <hr>
-    
-        <section id="perfiles-sociales">
-            <h2 class="form">Perfiles sociales</h2>
-            <p>También puedes encontrarme en:</p>
-            <ul>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Github</a></li>
-                <li><a href="">LinkedIn</a></li>
-            </ul>
-        </section>
-    
-        <hr>
-    
-        <section id="contactar">
-            <h2 class="form">Contactar</h2>
-            <p>Puedes enviarme un correo a <a href="">lvbd99@gmail.com</a></p>
-        </section>
-    </body>
-    </html>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Perfiles sociales -->
+    <section id="perfiles-sociales" class="container mb-4">
+        <h2>Perfiles sociales</h2>
+        <p>También puedes encontrarme en:</p>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="#">Instagram</a></li>
+            <li class="list-group-item"><a href="#">Github</a></li>
+            <li class="list-group-item"><a href="#">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Contactar -->
+    <section id="contactar" class="container mb-4">
+        <h2>Contactar</h2>
+        <p>Puedes enviarme un correo a <a href="mailto:lvbd99@gmail.com">lvbd99@gmail.com</a></p>
+    </section>
+</body>
+</html>
